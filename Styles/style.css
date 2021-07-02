@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    border:0;
+    padding: 0;
+}
+html{
+    font-size:62.5%;
+}
+:root{
+    --blue  : #289DD4;
+    --black : #090621;
+    --white : #EEFBFA;
+
+    --small : 1.3rem;
+    --lg    : 1.8rem;
+    --medium: 2.2rem;
+    --xl    : 2.5rem;
+    --xll   : 3rem;
+}
+
+/*-----------------*/
+
