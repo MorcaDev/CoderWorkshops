@@ -6,6 +6,11 @@
 html{
     font-size:62.5%;
 }
+body{
+    width: 100vw;
+    height: auto;
+    position: relative;
+}
 :root{
     --blue  : #289DD4;
     --black : #090621;
