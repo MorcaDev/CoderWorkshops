@@ -1,0 +1,12 @@
+.main-background{
+    height: 500px;
+    background: url("../MediaSources/images/mainBackDesktop.jpg") no-repeat center fixed;
+    background-size: 100% 100%;
+}
+    .main-background h2{
+        font-size: var(--xll);
+        line-height: 4rem;
+        word-spacing: 5px;
+    }
+
+/*------------------------------------------------------*/

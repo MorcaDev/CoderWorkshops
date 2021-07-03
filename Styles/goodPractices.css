@@ -8,6 +8,9 @@ html{
 }
 body{
     width: 100vw;
+    min-width: 320px;
+    max-width: 1500px;
+    margin: 0 auto;
     height: auto;
     position: relative;
 }
