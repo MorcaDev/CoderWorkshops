@@ -1,0 +1,15 @@
+header{
+    padding: 20px;
+    align-items: center;
+}
+    .header-up{
+        width: 135px;
+        padding: 0px;
+    }
+        .header-up h1{
+            font-size: var(--xl);
+        }
+    .header-down{
+        width: 30%;
+        margin-left: 56%;
+    }
