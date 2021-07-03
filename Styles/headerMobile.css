@@ -2,21 +2,23 @@ header{
     width: 100%;
     height: auto;
     padding: 15px 5px;
+    padding-bottom: 10px;
     display: flex;
     flex-flow: row wrap;
     background-color: var(--white)
 }
     .header-up{
         width: 100%;
-        padding: 5px 0px;
+        padding-top:5px;
+        padding-bottom: 27px;
         display: flex;
         flex-flow: row nowrap;
         justify-content: center;
         align-items: center;
     }
         .header-up img{
-            width: 85px;
-            height: 85px;
+            width: 55px;
+            height: 55px;
         }
         .header-up h1{
             margin-left: 5px;
@@ -25,7 +27,6 @@ header{
         }
     .header-down{
         width: 100%;
-        padding: 5px 0px;
     }
         .header-down ul{
             display: flex;
