@@ -1,27 +1,5 @@
-*{
-    box-sizing: border-box;
-    border:0;
-    padding: 0;
-}
-html{
-    font-size:62.5%;
-}
-body{
-    width: 100vw;
-    height: auto;
-    position: relative;
-}
-:root{
-    --blue  : #289DD4;
-    --black : #090621;
-    --white : #EEFBFA;
+@import url("goodPractices.css");
 
-    --small : 1.3rem;
-    --lg    : 1.8rem;
-    --medium: 2.2rem;
-    --xl    : 2.5rem;
-    --xll   : 3rem;
-}
+@import url("headerMobile.css");
 
-/*-----------------*/
 
