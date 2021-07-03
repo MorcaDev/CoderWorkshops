@@ -1,0 +1,14 @@
+.footer-left p{
+    font-size: var(--lg);
+}
+.footer-right{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+    .footer-right a img{
+        width: 45px;
+        height: 45px;
+        margin: 0px 15px;
+    }
