@@ -1,3 +1,10 @@
+main{
+    width: 100%;
+    height: auto;
+    background-color: var(--white);
+}
+
+/*-------------------------------------------------------*/
 .main-background{
     width: 100%;
     height: 450px;
@@ -24,10 +31,10 @@
     width: 100%;
     height: auto;
     padding: 100px 0px;
+    padding-bottom: 0px;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
-    background-color: var(--white);
 }
     .main-container h2{
         width: 100%;
@@ -85,3 +92,14 @@
         }
 
 /*----------------------------------------------------------*/
+.loader-button{
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    margin-bottom: 25px;
+    border: solid 0px;
+    border-radius: 50%;
+    background: url("../MediaSources/icons/loader.png") center no-repeat;
+    background-size: 90% 90%;
+}
