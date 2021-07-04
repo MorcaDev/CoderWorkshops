@@ -48,16 +48,19 @@ header{
                     height: 18px;
                     vertical-align: top;
                     margin-left : 14px;
-                    background: url("../MediaSources/icons/upArrow.png") no-repeat center;
+                    background-image: url("../MediaSources/icons/upArrow.png");
+                    background-repeat:no-repeat;
+                    background-position: center;
                     background-size: 100%;
                 }
     .header-menu{
+        display: none;
         width: 100%;
         padding: 28px 0px;
         position: absolute;
         right: 0px;
         top: 133px;
-        background-color: #eefbfaa6;
+        background-color: #eefbfabf;
     }
         .header-menu h3{
             margin-left: 10px;

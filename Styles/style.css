@@ -5,3 +5,7 @@
 @import url("mainMobile.css");
 
 @import url("footerMobile.css");
+
+.visibility{
+    display: block;
+}
