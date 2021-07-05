@@ -46,7 +46,7 @@ let remove = () => {
     loaderButton.remove()
 }
 
-let nodes = (number) => {
+let nodesCreator = (number) => {
 
     const container = document.createElement("div");
 
@@ -68,29 +68,28 @@ let nodes = (number) => {
     container.append(video,title,description);
 
     loaderParent.appendChild(container);
+
+    accountant++
 }
 
 let showClasses = ( ev ) =>{
-        switch (accountant) {
-            case 0:
-                nodes(accountant)
-                accountant++
-                break;
-            case 1:
-                nodes(accountant)
-                accountant++
-                break;
-            case 2:
-                nodes(accountant)
-                accountant++
-                break;
-            case 3:
-                nodes(accountant)
-                remove()
-                break;
-            default:
-                break;
+    if(window.innerWidth <= 1184){
+        nodesCreator(accountant)
+        if(accountant === 4){
+            remove()
         }
+    }else if(window.innerWidth >= 1185 && accountant%2 != 0){
+        nodesCreator(accountant)
+        if(accountant === 4){
+            remove()
+        }
+    }else if(window.innerWidth >= 1185){
+        nodesCreator(accountant)
+        nodesCreator(accountant)
+        if(accountant === 4){
+            remove()
+        }
+    }
 }
 
 let loaderButton = document.getElementById("loader")
