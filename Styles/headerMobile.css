@@ -43,11 +43,11 @@ header{
             display: flex;
             flex-flow: row nowrap;
         }
-            ul li{
+            .nav-down ul li{
                 list-style: none;
                 margin: 0 auto;
             }
-                ul li a{
+            .nav-down ul li a{
                     font-size: var(--lg);
                     text-decoration: none;
                     color: var(--black);
@@ -84,12 +84,17 @@ header{
             margin-left: 17px;
         }
             .nav-menu ul li {
-                padding: 6px 0px
+                padding: 6px 0px;
+                list-style: none;
             }
                 .nav-menu ul li a{
                     font-size: var(--lg);
                     text-decoration: none;
                     color:var(--black)
+                }
+                .nav-menu ul li a:hover{
+                    color: var(--blue);
+                    font-weight: 600;
                 }
                 .us{
                     display: inline-block;
@@ -126,6 +131,10 @@ header{
             font-weight: bold;
             background-color: rgba(255, 255, 255, 0);
             border: solid 0px white;
+        }
+        .nav-menu button:hover{
+            font-size: var(--lg);
+            color: rgb(199, 149, 23);
         }
 
 /*///////////////////////////////////////////////*/
