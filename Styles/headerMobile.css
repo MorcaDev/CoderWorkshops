@@ -15,7 +15,8 @@ header{
     padding-bottom: 10px;
     display: flex;
     flex-flow: row wrap;
-    position: relative;
+    position: sticky;
+    top: 0;
     background-color: var(--white)
 }
     .nav-up{
