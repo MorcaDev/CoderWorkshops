@@ -1,7 +1,7 @@
-.main-container div video{
+.workshop div video{
     height: 250px;
 }
-.main-container div p{
+.workshop div p{
     font-size: var(--lg);
 }
 

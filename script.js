@@ -49,6 +49,7 @@ let remove = () => {
 let nodesCreator = (number) => {
 
     const container = document.createElement("div");
+    container.classList.add("workshop")
 
     const video = document.createElement("video");
     video.setAttribute("controls","");

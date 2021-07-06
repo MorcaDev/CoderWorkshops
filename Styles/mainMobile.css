@@ -26,7 +26,7 @@ main{
             margin: 50px auto;
             background-color: var(--blue);
         }
-    .main-container div{
+    .workshop{
         width: 88%;
         height: auto;
         max-width: 450px;
@@ -40,23 +40,23 @@ main{
         box-shadow: 0px 2px 8px gray;
         cursor: pointer;
     }
-    .main-container div:hover{
+    .workshop:hover{
         box-shadow: 0px 0px  16px rgb(199, 149, 23);
     }
-        .main-container div h3{
+        .workshop h3{
             text-align: center;
             font-size: var(--medium);
 
             order:10
         }
-            .main-container div h3 span{
+            .workshop h3 span{
                 display: block;
                 width: 35px;
                 height: 1px;
                 margin: 25px auto;
                 background-color: var(--blue);
             }
-        .main-container div video{
+        .workshop video{
             width: 85%;
             height: 200px;
             margin: 0 auto;
@@ -64,7 +64,7 @@ main{
 
             order:20
         }
-        .main-container div p{
+        .workshop p{
             width: 80%;
             margin:0 auto;
             text-align: center;
