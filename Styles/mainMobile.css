@@ -38,6 +38,7 @@ main{
         background-color: white;
         border-radius: 25px;
         box-shadow: 0px 2px 8px gray;
+        cursor: pointer;
     }
     .main-container div:hover{
         box-shadow: 0px 0px  16px rgb(199, 149, 23);
@@ -83,11 +84,7 @@ main{
     border-radius: 50%;
     background: url("../MediaSources/icons/loader.png") center no-repeat;
     background-size: 90% 90%;
-}
-.loader-button:hover{
-    width: 50px;
-    height: 50px;
-    box-shadow: 0px 8px 10px rgba(199, 149, 23, 0.645);
+    cursor: pointer;
 }
 /*----------------------------------------------------------*/
 .fixed{
