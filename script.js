@@ -25,19 +25,19 @@ let accountant = 0
 let extraWorkshops = [{
     name: "React",
     text: "Here You are going to learn the most popular ans useful framework to work with JS.",
-    src : "#"
+    src : "MediaSources/videos/workshopA.mp4"
 },{
     name: "AI",
     text: "The machine learning is the future for apps and programms , learn how to develop it and handle it.",
-    src : "#"
+    src : "MediaSources/videos/workshopB.mp4"
 },{
     name: "Figma",
     text: "The first step to everything is imagining, but the second is prototyping the idea.",
-    src : "#"
+    src : "MediaSources/videos/workshopA.mp4"
 },{
     name: "HTML5",
     text: "The website structure is an art, learn how to be the master of this art in this workshop",
-    src : "#"
+    src : "MediaSources/videos/workshopB.mp4"
 }
 ]
 
