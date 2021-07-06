@@ -1,23 +1,41 @@
-header{
+/*///////////////////////////////////////////////*/
+/*////////////////HEADER-NAV////////////////////*/
+/*//////////////////////////////////////////////*/
+
+.header-nav{
     height: 95px;
     padding: 20px;
     align-items: center;
 }
-    .header-up{
+    .nav-up{
         width: 70%;
         padding: 0px;
-
         justify-content: flex-start;
     }
-        .header-up h1{
+        .nav-up h1{
             font-size: var(--xl);
         }
-    .header-down{
+    .nav-down{
         width: 30%;
     }
-    .header-menu{
+    .nav-menu{
         width: 320px;
         right: 20px;
         top: 95px;
         border-radius: 5px;
+    }
+
+/*///////////////////////////////////////////////*/
+/*//////////////HEADER-BACKGROUND////////////////*/
+/*//////////////////////////////////////////////*/    
+
+.header-background{
+    height: 500px;
+    background: url("../MediaSources/images/mainBackDesktop.jpg") no-repeat center fixed;
+    background-size: 100% 100%;
+}
+    .header-background h2{
+        font-size: var(--xll);
+        line-height: 4rem;
+        word-spacing: 5px;
     }
