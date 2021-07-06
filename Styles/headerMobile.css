@@ -52,6 +52,18 @@ header{
                     text-decoration: none;
                     color: var(--black);
                 }
+                .down-menu{
+                    font-size: var(--lg);
+                    text-decoration: none;
+                    color: var(--black);
+                    cursor: pointer;
+                }
+                .nav-down ul li a:hover{
+                    color: var(--blue);
+                }
+                .down-menu:hover{
+                    color: var(--blue);
+                }
                 .down-menu span{
                     display: inline-block;
                     width: 16px;
