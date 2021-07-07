@@ -14,6 +14,7 @@ body{
     margin: 0 auto;
     height: auto;
     position: relative;
+    z-index: 20;
 }
 :root{
     --blue  : #289DD4;
