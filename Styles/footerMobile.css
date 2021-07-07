@@ -21,7 +21,7 @@ footer{
         color: var(--white);
     }
 
-.span{
+.footer-span{
     display: block;
     width: 1.5px;
     height: 100px;
