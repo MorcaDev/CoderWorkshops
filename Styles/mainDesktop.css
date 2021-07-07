@@ -1,5 +1,5 @@
 .workshop__video{
-    height: 250px;
+    height: auto;
 }
 .workshop__p{
     font-size: var(--lg);
