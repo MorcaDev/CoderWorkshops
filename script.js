@@ -303,8 +303,8 @@ let showClasses = ( ev ) =>{
     }
 }
 
-let loaderButton = document.getElementById("loader")
-let loaderParent = document.getElementById("loader-parent")
+let loaderButton = document.getElementById("main-loader")
+let loaderParent = document.getElementById("main-parent")
 
 loaderButton.addEventListener("click", showClasses);
 
