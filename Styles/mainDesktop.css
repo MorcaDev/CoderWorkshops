@@ -1,7 +1,7 @@
-.workshop video{
+.workshop__video{
     height: 250px;
 }
-.workshop p{
+.workshop__p{
     font-size: var(--lg);
 }
 

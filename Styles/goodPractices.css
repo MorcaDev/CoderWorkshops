@@ -13,6 +13,7 @@ body{
     max-width: 1500px;
     margin: 0 auto;
     height: auto;
+    min-height: 535px;
     position: relative;
     z-index: 20;
 }
