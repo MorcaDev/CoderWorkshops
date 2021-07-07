@@ -17,7 +17,7 @@ main{
     .main-container h2{
         width: 100%;
         text-align: center;
-        font-size: var(--xl);
+        font-size: var(--xll);
     }
         .main-container h2 span{
             display: block;
@@ -37,15 +37,15 @@ main{
         justify-content: center;
         background-color: white;
         border-radius: 25px;
-        box-shadow: 0px 2px 8px gray;
+        box-shadow: 0px 2px 15px gray;
         cursor: pointer;
     }
     .workshop:hover{
-        box-shadow: 0px 0px  16px rgb(199, 149, 23);
+        box-shadow: 0px 0px  20px var(--blue);
     }
         .workshop__h3{
             text-align: center;
-            font-size: var(--medium);
+            font-size: var(--xl);
 
             order:10
         }
@@ -53,7 +53,8 @@ main{
                 display: block;
                 width: 35px;
                 height: 1px;
-                margin: 25px auto;
+                margin: 0px auto;
+                margin-top:30px;
                 background-color: var(--blue);
             }
         .workshop__video{
@@ -69,6 +70,7 @@ main{
             margin:0 auto;
             text-align: center;
             font-size: 1.5rem;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
             order:30
         }

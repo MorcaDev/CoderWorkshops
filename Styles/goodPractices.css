@@ -18,8 +18,8 @@ body{
     z-index: 20;
 }
 :root{
-    --blue  : #289DD4;
-    --black : #090621;
+    --blue  : #2591c4;
+    --black : #020107;
     --white : #e2e8e8;
 
     --small : 1.3rem;
