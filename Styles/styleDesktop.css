@@ -3,3 +3,12 @@
 @import url("mainDesktop.css");
 
 @import url("footerDesktop.css");
+
+.video{
+    height: 400px;
+}
+@media (min-width:1500px){
+    .zoom1{
+        left: calc(50% - 750px);
+    }
+}

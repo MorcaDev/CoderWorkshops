@@ -5,6 +5,7 @@
 }
 html{
     font-size:62.5%;
+    scroll-behavior: smooth;
 }
 body{
     width: 100%;
@@ -12,12 +13,14 @@ body{
     max-width: 1500px;
     margin: 0 auto;
     height: auto;
+    min-height: 535px;
     position: relative;
+    z-index: 20;
 }
 :root{
     --blue  : #289DD4;
     --black : #090621;
-    --white : #EEFBFA;
+    --white : #e2e8e8;
 
     --small : 1.3rem;
     --lg    : 1.8rem;

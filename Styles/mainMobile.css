@@ -5,28 +5,6 @@ main{
 }
 
 /*-------------------------------------------------------*/
-.main-background{
-    width: 100%;
-    height: 450px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: url("../MediaSources/images/mainBackMobile.jpg") no-repeat center fixed;
-    background-size: 100% 100%;
-}
-    .main-background h2{
-        width:  285px;
-        height: auto;
-        text-align: center;
-        font-size: var(--xl);
-        line-height: 2.8rem;
-        word-spacing: 2px;
-        font-weight: bold;
-        font-family:Arial, Helvetica, sans-serif;
-        color : var(--white)
-    }
-
-/*-------------------------------------------------------*/
 .main-container{
     width: 100%;
     height: auto;
@@ -48,7 +26,7 @@ main{
             margin: 50px auto;
             background-color: var(--blue);
         }
-    .main-container div{
+    .workshop{
         width: 88%;
         height: auto;
         max-width: 450px;
@@ -60,21 +38,25 @@ main{
         background-color: white;
         border-radius: 25px;
         box-shadow: 0px 2px 8px gray;
+        cursor: pointer;
     }
-        .main-container div h3{
+    .workshop:hover{
+        box-shadow: 0px 0px  16px rgb(199, 149, 23);
+    }
+        .workshop__h3{
             text-align: center;
             font-size: var(--medium);
 
             order:10
         }
-            .main-container div h3 span{
+            .workshop__h3 span{
                 display: block;
                 width: 35px;
                 height: 1px;
                 margin: 25px auto;
                 background-color: var(--blue);
             }
-        .main-container div video{
+        .workshop__video{
             width: 85%;
             height: 200px;
             margin: 0 auto;
@@ -82,7 +64,7 @@ main{
 
             order:20
         }
-        .main-container div p{
+        .workshop__p{
             width: 80%;
             margin:0 auto;
             text-align: center;
@@ -102,8 +84,8 @@ main{
     border-radius: 50%;
     background: url("../MediaSources/icons/loader.png") center no-repeat;
     background-size: 90% 90%;
+    cursor: pointer;
 }
-
 /*----------------------------------------------------------*/
 .fixed{
     text-align: center;
