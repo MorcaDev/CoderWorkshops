@@ -245,8 +245,8 @@ let nodesCreator = (number) =>{
     p.classList.add("workshop__p")
     p.textContent = infoExtraWorkshops[number].text  
 
-    h3.append(span)
-    div.append(video,h3,p)
+    h3.appendChild(span)
+    div.append(h3,video,p);
 
     switch (number) {
         case 0:
@@ -284,9 +284,6 @@ let nodesCreator = (number) =>{
         default:
             break;
     }
-
-    h3.appendChild(span);
-    div.append(video,h3,p);
 
     loaderParent.appendChild(div);
 
