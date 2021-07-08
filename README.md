@@ -2,10 +2,10 @@
 
 *Coders is a virtual school to learn how to program and become you from a junior to Senior developer.*
 
-![Coders](https://github.com/MorcaDev/CodersWorkshops/blob/master/MediaSources/icons/icon.png)
+![Coders](https://github.com/MorcaDev/CodersWorkshops/blob/master/MediaSources/icons/icon.png "Coders")
 
 
-# Description
+## Description
 
 It's a personal project to improve and aply my skill in the web development.
 
