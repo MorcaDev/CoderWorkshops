@@ -128,6 +128,10 @@ let identifyZoomToOpen = (ev) =>{
     let idChild = ev.path[1].id 
     let idParent = ev.target.id
 
+    if(innerHeight < 411){
+
+    }else{
+        
     if(idChild === "W1" || idParent === "W1"){
         showZoom(objectW1)
     }else if(idChild === "W2" || idParent === "W2"){
@@ -146,6 +150,7 @@ let identifyZoomToOpen = (ev) =>{
         showZoom(objectW8)
     }else{
         console.log("it's not here 1")
+    }
     }
 }
 
